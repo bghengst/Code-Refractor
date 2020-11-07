@@ -1,12 +1,17 @@
+/*Style Sheet for index.html*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Makes background of page white*/
 body {
     background-color: #d9dcd6;
 }
+
+/* Styles Header of the page with blue background and white font*/
 
 .header {
     padding: 20px;
@@ -15,15 +20,18 @@ body {
     color: #ffffff;
 }
 
+/* Styles content of header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Styles seo in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Shapes the box for the header and styles*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +40,29 @@ body {
     font-size: 20px;
 }
 
+
 .header div ul {
     list-style-type: none;
 }
 
+/*Styles listed content of header*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Styles listed content of header*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Font size for all corresponding p values*/
 p {
     font-size: 16px;
 }
 
+/* Incudes Style and main image for website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +72,26 @@ p {
     background-position: center;
 }
 
+/*Moves Services explanations the the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Moves section of how company improves marketability to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Styles all the content of Services*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styles benefits on the right of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,20 +103,24 @@ p {
     background-color: #0072bb;
 }
 
+/*styles content inside right box*/
 .benefits * {margin-bottom: 32px;
 color: #ffffff}
 
+/*size of box on right side*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*size of images on the right of page*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Style for the boxes in middle of the page*/
 .Services {
     margin-bottom: 20px;
     padding: 50px;
@@ -109,16 +130,18 @@ color: #ffffff}
     color: #ffffff;
 }
 
-
+/*Size for the images*/
 .Services img {
     max-height: 200px;
 }
 
+/*defines box for box on right of page*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Styles box of footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -126,6 +149,7 @@ color: #ffffff}
     text-align: center;
 }
 
+/*styles content of footer*/
 .footer h2 {
     font-size: 20px;
 }
